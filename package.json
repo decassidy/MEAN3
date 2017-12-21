@@ -1,0 +1,32 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decassidy/mean-stack-app.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Derrick Cassidy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decassidy/mean-stack-app/issues"
+  },
+  "homepage": "https://github.com/decassidy/mean-stack-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "mongodb": "^3.0.0-rc0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
